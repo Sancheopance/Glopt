@@ -1,0 +1,20 @@
+.job{
+    padding: 51px 0 55px;
+    .title{
+        margin-top: 25px;
+        text-align: center;
+    }
+
+    &__img{
+        width: 100%;
+        margin-top: 37px;
+    }
+    &__descr{
+        margin-top: 14px;
+        font-size: 14px;
+        font-weight: 400;
+        text-align: justify;
+        color: #3a3a3a;
+    }
+
+}

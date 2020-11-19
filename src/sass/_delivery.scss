@@ -1,0 +1,57 @@
+.delivery{
+    padding-top: 50px;
+    &-card{
+        justify-content: center;
+        margin-top: 32px;
+        width: 100%;
+        height: 355px;
+        border: solid 1px #e9e9e9;
+        background-color: #ffffff;
+        &__header{
+            margin: 0 auto;
+            width: 248px;
+            height: 61px;
+            background-color: #25333c;
+            font-size: 16px;
+            font-weight: bold;
+            text-align: center;
+            color: #ffffff;
+            line-height: 61px;
+            text-transform: uppercase;
+        }
+    
+        
+        &__img{
+            margin: 15px auto 0;
+            display: block;
+        }
+        &__subheader{
+            margin-top: 10px;
+            font-size: 14px;
+            font-weight: 400;
+            text-align: center;
+            color: #2e2e2e;
+            text-transform: uppercase;
+        }
+        &__price{
+            font-size: 28px;
+            color: $main-color;
+            text-align: center;
+            font-weight: 400;
+            line-height: 1em;
+        }
+        &__descr{
+            padding: 0 8px;
+            margin-top: 17px;
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 1.43;
+            text-align: center;
+            color: #000000;
+        }
+    }
+    .button{
+        display: block;
+        margin: 22px auto 0;
+    }
+}

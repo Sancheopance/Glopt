@@ -2,6 +2,10 @@
 @import "bootstrap-grid";
 @import "fonts";
 @import "var";
+@import "title";
+@import "h1";
+@import "line";
+@import "subheader";
 
 * {font-family: 'Roboto', sans-serif;}
 @import "button";
@@ -9,3 +13,10 @@
 @import "modal";
 @import "animations";
 @import "promo";
+@import "advantages";
+@import "job";
+@import "agent";
+@import "delivery";
+@import "consultation";
+
+@import "media";

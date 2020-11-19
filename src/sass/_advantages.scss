@@ -1,0 +1,22 @@
+.advantages{
+    background: #f3f3f3;
+    padding: 58px 0 51px;
+    &__wrapper{
+        margin-top: 31px;
+        display: flex;
+    }
+    &__icon{
+        
+        height: 100%;
+    }
+    &__item{
+        padding: 0 45px 0 17px;
+    }
+    &__descr{
+        margin-top: 6px;
+        font-size: 14px;
+        font-weight: 400;
+        text-align: left;
+        color: #3a3a3a;
+    }
+}
