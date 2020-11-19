@@ -1,0 +1,47 @@
+.header{
+    position: absolute;
+    width: 100%;
+    padding-top: 23px;
+
+    &__menu{
+        margin-top: 27px;
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;  
+    }
+    &__item{
+        border-right: 1px dotted rgba($color: #fff, $alpha: .4);
+        padding:0 8px 0;
+        &:last-child{
+            border:none;
+        }
+    }
+    &__link{
+        color: #fff;
+        line-height: 1.13;
+        font-weight: 400;
+        line-height: 1.13;
+        color: #ffffff;
+        &:hover{
+            color: #ec644b;
+            
+        }
+    }
+    &-phone{
+        margin-top: 14px;
+        display: flex;
+        &__subheader{
+            margin-right: 19px;
+            font-size: 14px;
+            font-weight: 300;
+            text-align: right;
+            color: #ffffff;  
+            span{
+                font-size: 19px;
+                font-weight: bold;
+            }
+            
+        }
+      
+    }
+}
