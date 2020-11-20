@@ -1,4 +1,64 @@
 .questions{
     background: url('../img/bg/questions_bg.jpg') center (center/cover) no-repeat;
     min-height: 438px;
+    padding: 62px 0 79px;
+    &__header{
+        padding-top: 20px;
+        width: 896px;
+        height: 68px;
+        background: #25333c;
+    }
+    &__title{
+        font-size: 19px;
+        font-weight: bold;
+        text-align: center;
+        color: #ffffff; 
+        text-transform: uppercase;
+        line-height: 1em;
+    }
+    &__subtitle{
+        margin-top: 2px;
+        font-size: 14px;
+        font-weight: 400;
+        text-align: center;
+        color: #ffffff;
+        text-transform: uppercase;
+        line-height: 1em;
+    }
+    &__wrapper{
+        background: rgba($color: #fff, $alpha: .7);
+        padding: 18px 40px 25px;
+        width: 896px;
+        display: flex;
+        justify-content: space-between;
+        input{
+            padding: 0 18px;
+            width: 268px;
+            height: 45px;
+            border-radius: 25px;
+            border: solid 1px rgba(0, 0, 0, 0.4);
+            font-size: 13px;
+            font-weight: 300;
+            text-align: left;
+            color: #000000;
+        
+        }
+        textarea{
+            margin-top: 8px;
+            resize: none;
+            width: 100%;
+            height: 71px;
+            border-radius: 10px;
+            border: solid 1px rgba(0, 0, 0, 0.4);
+            padding: 10px 0 0 15px;
+            font-size: 13px;
+            font-weight: 300;
+            text-align: left;
+            color: #616467;
+        }
+    }
+    .button{
+        margin: 17px auto 0;
+        display: block;
+    }
 }
