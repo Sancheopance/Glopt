@@ -10,9 +10,13 @@
     }
     &__item{
         border-right: 1px dotted rgba($color: #fff, $alpha: .4);
-        padding:0 8px 0;
+        padding:0 13px 0;
+        &:first-child{
+            padding-left: 0;
+        }
         &:last-child{
             border:none;
+            padding-right: 0;
         }
     }
     &__link{

@@ -1,0 +1,47 @@
+.patern{
+    padding: 51px 0 46px;
+    background: #f3f3f3 ;
+    &__header{
+        font-size: 26px;
+        text-align: center;
+        color: #2e2e2e;
+        text-transform: uppercase;
+        font-weight: bold;
+        line-height: 1em;
+    }
+    &-item{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        
+        &__wrapper{
+            width: 255px;
+            margin-top: 26px;
+            margin-right: 30px;
+            &:nth-child(4){
+                margin-right: 0;
+            }
+            &:last-child{
+                margin-right: 0;
+            }
+        }
+        &__icon{
+            vertical-align: middle;
+            display: block;
+            margin: 0 auto;
+        }
+        &__subtitle{
+            font-size: 16px;
+            font-weight: bold;
+            color: $main-color;
+            text-align: center;
+            margin-top: 12px;
+        }
+        &__descr{
+            font-size: 14px;
+            font-weight: 300;
+            text-align: center;
+            color: #000000;
+        }
+    }
+}
