@@ -10,67 +10,66 @@
 </head>
 <body>
  
-    <header class="header">
+    <header class="menu">
         <div class="container">
-            <div class="row">
-                    <div class="col-1">
-                        <img class="header__logo" src="icons/logo.png" alt="">
+            <div class="menu__wrapper">
+                <img class="menu__logo" src="icons/logo.png" alt="">
+                <nav>
+                    <ul class="menu__links">
+                        <li class="menu__item"><a href="#advantages" class="menu__link"> Преимущества</a></li>
+                        <li class="menu__item"><a href="#job" class="menu__link">Наша работа</a></li>
+                        <li class="menu__item"><a href="#delivery" class="menu__link">Цены</a></li>
+                        <li class="menu__item"><a href="#patern" class="menu__link">Схема работы</a></li>
+                        <li class="menu__item"><a href="#review" class="menu__link">Отзывы</a></li>
+                        <li class="menu__item"><a href="#contacts" class="menu__link">Контакты</a></li>
+                    </ul> 
+                </nav>
+                <div class="menu-phone">
+                    <div class="menu-phone__subheader">Есть вопросы?
+                        <br> <span><a href="tel:+79264230100">+7 (926) 423 01 00</a>
                     </div>
-                    <div class="col-7">
-                        <nav>
-                            <ul class="header__menu">
-                                <li class="header__item"><a href="#" class="header__link"> Преимущества</a></li>
-                                <li class="header__item"><a href="#" class="header__link">Наша работа</a></li>
-                                <li class="header__item"><a href="#" class="header__link">Цены</a></li>
-                                <li class="header__item"><a href="#" class="header__link">Схема работы</a></li>
-                                <li class="header__item"><a href="#" class="header__link">Отзывы</a></li>
-                                <li class="header__item"><a href="#" class="header__link">Контакты</a></li>
-                            </ul>
-                        </nav>
-                    </div>
-                    <div class="col-4">
-                        <div class="header-phone">
-                            <div class="header-phone__subheader">Есть вопросы?
-                                <br> <span>+7 (926) 423 01 00</span>
-                            </div>
-                            <button class="button">Перезвоните мне</button>
-                        </div>
-                    </div>
+                    <button class="button">Перезвоните мне</button>
+                </div>
             </div>
         </div>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div> 
     </header>
 
-    <section class="promo">
+    <section id="up" class="promo">
         <div class="container">
             <h1 class="promo__header">Global Opt - логистика полного цикла из Китая в Россию</h1>
             <div class="promo__subheader">ДОСТАВКА ГРУЗОВ ИЗ КИТАЯ</div>
             <div class="promo__supheader">В РОССИЮ И СНГ ВСЕМИ ВИДАМИ ТРАНСПОРТА</div>
 
-            <div class="promo__item">
-                <hr>
-                <div></div>
-                <hr>
+            <div class="promo-item">
+                <div class="promo-item__line"></div>
+                <div class="promo-item__round"></div>
+                <div class="promo-item__line"></div>
             </div>
             <div class="row">
-                <div class="col-3">
+                <div class="col-md-3">
                     <div class="promo-container">
                         <img src="icons/promo/1.png" alt="" class="promo-container__img">
                         <div class="promo-container__descr">Перевозка негабаритных и крупнотоннажных грузов</div>
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col-md-3">
                     <div class="promo-container">
                         <img src="icons/promo/2.png" alt="" class="promo-container__img">
                         <div class="promo-container__descr">Самостоятельно декларируем и проводим таможенную очистку с оптимизацией кодов и ставок</div>
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col-md-3">
                     <div class="promo-container">
                         <img src="icons/promo/3.png" alt="" class="promo-container__img">
                         <div class="promo-container__descr">Осуществляем прямые поставки с заводов от двери до двери</div>
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col-md-3">
                     <div class="promo-container">
                         <img src="icons/promo/4.png" alt="" class="promo-container__img">
                         <div class="promo-container__descr">Экспресс доставка 1-2 дня из Гуанчжоу в Москву от 25$/кг  </div>
@@ -80,11 +79,11 @@
             </div>
         </div>
     </section>
-    <section class="advantages">
+    <section id="advantages" class="advantages">
         <div class="container">
             <h2 class="h1">Преимущества работы с GlobalOpt</h2>
             <div class="row">
-                <div class="col-6">
+                <div class="col-md-6">
                     <div class="advantages__wrapper">
                         <img src="icons/advantage/1.png" alt="" class="advantages__icon">
                         <div class="advantages__item">
@@ -93,7 +92,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-6">
+                <div class="col-md-6">
                     <div class="advantages__wrapper">
                         <img src="icons/advantage/2.png" alt="" class="advantages__icon">
                         <div class="advantages__item">
@@ -102,7 +101,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-6">
+                <div class="col-md-6">
                     <div class="advantages__wrapper">
                         <img src="icons/advantage/3.png" alt="" class="advantages__icon">
                         <div class="advantages__item">
@@ -111,7 +110,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-6">
+                <div class="col-md-6">
                     <div class="advantages__wrapper">
                         <img src="icons/advantage/4.png" alt="" class="advantages__icon">
                         <div class="advantages__item">
@@ -120,7 +119,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-6">
+                <div class="col-md-6">
                     <div class="advantages__wrapper">
                         <img src="icons/advantage/5.png" alt="" class="advantages__icon">
                         <div class="advantages__item">
@@ -129,7 +128,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-6">
+                <div class="col-md-6">
                     <div class="advantages__wrapper">
                         <img src="icons/advantage/6.png" alt="" class="advantages__icon">
                         <div class="advantages__item">
@@ -138,7 +137,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-6">
+                <div class="col-md-6">
                     <div class="advantages__wrapper">
                         <img src="icons/advantage/7.png" alt="" class="advantages__icon">
                         <div class="advantages__item">
@@ -147,7 +146,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-6">
+                <div class="col-md-6">
                     <div class="advantages__wrapper">
                         <img src="icons/advantage/8.png" alt="" class="advantages__icon">
                         <div class="advantages__item">
@@ -159,24 +158,24 @@
             </div>
         </div>
     </section>
-    <section class="job">
+    <section id="job" class="job">
         <div class="container">
             <div class="h1">Наша работа - больше чем просто доставка</div>
             <hr class="line">
             <div class="job__item"></div>
             <div class="subheader">Мы организуем перевозки из Китая - оперативно и надежно, с учетом особенностей груза и ваших требований по срокам и бюджету.</div>
             <div class="row">
-                <div class="col-4">
+                <div class="col-md-4 offset-md-0 offset-sm-2 col-sm-8 "">
                     <img src="img/job/1.jpg" alt="" class="job__img">
                     <div class="title title_big"> Страховка груза</div>
                     <div class="job__descr"> Все грузы, логистику которых осуществляет Global Opt, застрахованы. Мы гарантируем полное возмещение стоимости груза в случаях, предусмотренных страхо- вым соглашением. Все ваши тревоги наша компания берет на себя.</div>
                 </div>    
-                <div class="col-4">
+                <div class="col-md-4 offset-md-0 col-sm-8 offset-sm-2"">
                     <img src="img/job/2.jpg" alt="" class="job__img">
                     <div class="title title_big"> Логистика последней мили </div>
                     <div class="job__descr"> Мы осуществляем доставку вашего груза до конкретного адреса. Привоз согласовывается менед- жерами по телефону, предварительно за сутки и за час до доставки. Также мы предоставляем услуги грузчи- ков по месту доставки груза.</div>
                 </div>
-                <div class="col-4">
+                <div class="col-md-4 offset-md-0 col-sm-8 offset-sm-2"">
                     <img src="img/job/3.jpg" alt="" class="job__img">
                     <div class="title title_big"> Мы всегда смотрим вперед  </div>
                     <div class="job__descr">  Философия нашей компании, делать себя и своих партнеров по всему миру, успешными и богатыми. Поэтому мы всегда открыты к диалогу о партнерстве и инвестициях. </div>
@@ -197,7 +196,7 @@
         </div>
     </section>
 
-    <section class="delivery">
+    <section id="delivery" class="delivery">
         <div class="container">
             <h2 class="h1">Цены на любой вариант доставки</h2>
             <hr class="line">
@@ -205,7 +204,7 @@
                 Любой груз доставим вовремя. </div>
 
             <div class="row">
-                <div class="col-3">
+                <div class="col-xl-3 col-md-6">
                     <div class="delivery-card">
                         <div class="delivery-card__header">Доставка морем</div>
                         <div class="delivery-card__content delivery-card__content_active ">
@@ -221,7 +220,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col-xl-3 col-md-6">
                     <div class="delivery-card">
                         <div class="delivery-card__header">Доставка морем</div>
                         <div class="delivery-card__content delivery-card__content_active">
@@ -237,7 +236,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col-xl-3 col-md-6 ">
                     <div class="delivery-card">
                         <div class="delivery-card__header">Доставка морем</div>
                         <div class="delivery-card__content delivery-card__content_active">
@@ -253,7 +252,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col-xl-3 col-md-6">
                     <div class="delivery-card">
                         <div class="delivery-card__header">Доставка морем</div>
                         <div class="delivery-card__content delivery-card__content_active">
@@ -271,7 +270,7 @@
              </div>
         </div>
     </section>
-    <section class="consultation">
+    <section id="consultation" class="consultation">
         <div class="container">
             <h3 class="consultation__header">Заказать бесплатную консультацию</h3>
             <div class="consultation__item">
@@ -280,10 +279,10 @@
                 </div>
             </div>
             <div class="consultation-wrapper">
-                <form action="" class="feed-form">
-                    <input placeholder="Ваше имя..." name="name"  type="text">
-                    <input placeholder="Ваш номер телефона..." name="phone" type="text">
-                    <input placeholder="Ваш E-mail..." name="email" type="email">
+                <form id="consultation-form" action="#" class="feed-form">
+                    <input required placeholder="Ваше имя..." name="name"  type="text">
+                    <input required placeholder="Ваш номер телефона..." name="phone" type="text">
+                    <input required placeholder="Ваш E-mail..." name="email" type="email">
                     <div class="consultation-wrapper__btn">
                         <button class="button">Отправить заявку</button>
                     </div>
@@ -304,7 +303,7 @@
         </div>
     </section>
 
-    <section class="patern">
+    <section id="patern" class="patern">
         <div class="container">
             <div class="h1"> Схема работы с нами </div>
             <div class="patern-item">
@@ -346,7 +345,7 @@
             </div>
         </div>
     </section>
-    <section class="carousel">
+    <section id="review" class="carousel">
         <div class="container">
             <h2 class="h1">отзывы наших клиентов</h2>
             <hr class="line">
@@ -379,10 +378,10 @@
                 </div>
                 <div class="questions__wrapper">
                     <form action="#" class="questions-form">
-                        <input name="name" placeholder="Ваше имя..." type="text">
-                        <input name="phone" placeholder="Ваше имя..." type="phone">
-                        <input name="email" placeholder="Ваше имя..." type="text">
-                        <textarea name="mail" placeholder="Сообщение" id="" cols="30" rows="10"></textarea>
+                        <input required name="name" placeholder="Ваше имя..." type="text">
+                        <input required name="phone" placeholder="Ваш номер телефона..." type="phone">
+                        <input required name="email" placeholder="Ваш E-mail..." type="text">
+                        <textarea required name="mail" placeholder="Сообщение" id="" cols="30" rows="10"></textarea>
                         <button class="button button_questions">отправить заявку</button>
                     </form>
                 </div>
@@ -391,14 +390,16 @@
     </section>
     <footer >
         <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A4b7f9070a3f046c413383dad9e084a53c295f80e32db0488990aa308ac4760dc&amp;source=constructor" width="100%" height="551" frameborder="0"></iframe>
-        <div class="footer">
+        <div id="contacts" class="footer">
             <div class="container">
                 <div class="footer__content">
-                    <img class="footer__icon" src="icons/footer_mini_logo.png" alt="" ></img>
-                    <div class="footer__descr">Global Opt - Доставка грузов из Китая в Россию и СНГ</div>
+                    <div class="footer__wrapper">
+                        <img class="footer__icon" src="icons/logo.png" alt="" ></img>
+                        <div class="footer__descr"> Global Opt - Доставка грузов из Китая в Россию и СНГ</div>
+                    </div>
                     <div class="footer-phone">
                         <div class="footer-phone__subheader">Есть вопросы?
-                            <br> <span>+7 (926) 423 01 00</span>
+                            <br> <span><a href="tel:+79264230100">+7 (926) 423 01 00</a></span>
                         </div>
                         <button class="button">Перезвоните мне</button>
                     </div>
@@ -415,10 +416,14 @@
             </div>
         </div>
     </footer>
+    <a class="pageup" href="#up">
+        <img src="icons/up-arrow.svg" alt="up">
+    </a>
 
     <script src="js/jquery-1.11.0.min.js"></script>
     <script src="js/jquery-migrate-1.2.1.min.js"></script>
     <script src="js/slick.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
 
     <script src="js/script.js"></script>
 </body>

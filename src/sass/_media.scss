@@ -1,0 +1,385 @@
+@media (max-width: 1200px){
+    .menu{
+        &__link{
+            font-size: 13px;
+        }
+            
+        &__item{
+           padding: 0 8px 0;
+        }
+    }
+    .promo{
+        &__subheader{
+            font-size: 65px;
+        }
+        &__supheader{
+            font-size: 38px;
+        }
+    }
+	
+}
+@media (max-width: 991px){
+    .menu{
+        &__links{
+            padding-left: 12px;
+        }
+        &__link{
+            font-size: 12px;
+        }
+            
+        &__item{
+            padding: 0 8px;
+        
+        }      
+        &-phone{
+            flex-direction: column;
+            &__subheader{
+                span{
+                    font-size: 15px;
+                }
+            }
+            .button{
+                height: 40px;
+                width: 140px;
+            }
+        }
+    }
+    .promo{
+        &__header{
+            margin-top: 10px;
+            font-size: 22px;
+        }
+        &__subheader{
+            font-size: 58px;
+        }
+        &__supheader{
+            font-size: 34px;
+        }
+    }
+    .job{
+        .subheader{
+            padding:0 50px;
+        }
+    }
+    .delivery{
+        .subheader{
+            padding: 0;
+        }
+    }
+    .carousel{
+        .slick-prev{
+            left: 37%;
+        }
+        .slick-next{
+            right: 37%;
+            
+        }
+    }
+    .questions{
+        &__item{
+            width: 100%;
+            input{
+                width: 200px;
+            }
+        }
+    
+    }
+}
+@media (max-width: 767px){
+    .menu{
+        &-phone{
+            
+        }
+        .button{
+            margin-right: 20px;
+        }
+        &__links{
+            position: fixed;
+            justify-content: center;
+            align-items: center;
+            top: 0;
+            right: -100%;
+            width: 50%;
+            height: 100vh;
+            padding: 20px 15px;
+            flex-direction: column;
+            background: rgba(0,0,0,.9);
+            transition: 0.6s all;
+            z-index: 100;
+            margin-top: 50px;
+            
+            &_active{
+                right: 0;
+            }
+        }
+        &__item{
+            padding-right: 0;
+            border: none;
+            margin: 10px 0;
+        } 
+        &__link{
+            font-size: 30px;
+        }  
+    
+    .hamburger{
+        display: block;
+        position: fixed;
+        right: 6px;
+        top: 21px;
+        transform: translateY(-50%);
+        width: 26px;
+        height: 12px;
+        span{
+            display: block;
+            height: 2px;
+            width: 100%;
+            background: $main-color;
+            margin-bottom: 2px ;
+            transition: .5s all;
+        }
+        &_active{
+            span{
+                margin-bottom: -2px ;
+                &:nth-child(1){
+                    transform: translateY(3px) rotate(-45deg);
+                }
+                    
+                &:nth-child(2){
+                    display: none;
+                }
+                    
+                &:nth-child(3){
+                    transform: translateY(3px) rotate(45deg) ;
+                }      
+            }
+
+        }
+    }
+    }
+    .promo{
+        &-container{
+            &__descr{
+                padding: 0 60px;
+                margin-bottom: 10px;
+              
+            }
+        }
+        &__subheader{
+            font-size: 65px;
+        }
+        &-item{
+            &__round{
+                height: 7px;
+            }
+        }
+    }
+
+    .job{
+        .subheader{
+            padding:0 25px;
+        }
+    }
+    .info{
+        &__descr{
+            padding: 0;
+        }
+    }
+    .carousel{
+        .slick-prev{
+            left: 34%;
+            top:25%;
+        }
+        .slick-next{
+            right: 34%;
+            top:25%;
+            
+        }
+    }
+
+    .info_manager{
+        .info{
+            &__descr{
+                padding: 10px;
+            }
+        }
+    
+    }
+    
+    .patern{
+        &-item{
+            &__wrapper{
+                margin-right: 0;
+            }
+        }
+    }
+
+    .consultation{
+       
+        input{
+            padding-left: 15px;
+        }
+     
+    }
+
+    .questions{
+        input{
+            margin: 5px auto;
+            width: 80%;
+        }
+
+    }
+    .footer{
+        &__content{
+            justify-content: flex-end;
+            flex-wrap: wrap;
+        }
+        &__icon{
+            height: 80px;
+        }
+        &__descr{
+            margin: 0;
+        }
+
+    }
+
+}
+@media (max-width: 575px){
+    nav {
+        height: 30px;
+    }
+   
+    header {
+        height: 30px;
+    }
+    .menu{
+        &__links{
+            width: 85%;
+        }
+        &__item{
+            width: 100%;
+            text-align: center;
+            padding: 5px 0;
+        }
+        &__link{
+            display: block;
+        }
+    }
+    .hamburger{
+        &_active{
+            span{
+                &:nth-child(1){
+                    transform: translateY(5px) rotate(-45deg);
+                }
+                &:nth-child(3){
+                    transform: translateY(5px) rotate(45deg);
+                }
+            } 
+        } 
+
+
+    }
+    .promo{
+        &-container{
+            &__descr{
+                padding: 0 30px;
+                margin-bottom: 10px;
+              
+            }
+        }
+        &__header{
+            font-size:14px ;
+        } 
+        &__subheader{
+            font-size: 40px;
+        }
+        &__supheader{
+            font-size: 20px;
+        }
+        &-item{
+            &__round{
+                margin: 0 4px;
+                height: 5px;
+            }
+        }
+    }
+
+    .job{
+        .h1{
+            font-size: 21px;
+        }
+        .subheader{
+            padding:0 10px;
+            font-size: 17px;
+        }
+    }
+    .carousel{
+        .slick-prev{
+            top: 20%;
+            left: 18%;
+           
+        }
+        .slick-next{
+            top: 20%;
+            right: 18%;
+           
+            
+        }
+    }
+
+    .consultation{
+        &__header{
+            font-size: 16px;
+        }
+        &__item{
+            top: 90px;
+            width: 105px;
+        }
+        &__round{
+            width: 80px;
+            height: 80px;
+        }
+        &-wrapper{
+            padding: 60px 0 30px;
+        }
+        input{
+            padding-left: 15px;
+        }
+        
+    }
+    .feed-form{
+        flex-direction: column;
+        input{
+            width: 80%;
+            margin: 5px auto;
+        }
+    }
+
+    .footer{
+        &-bottom{
+            &__copyright{
+                font-size: 10px;
+            }
+            &__link{
+                font-size: 10px;
+            }
+            &__credits{
+                font-size: 10px;
+            }
+        }
+        &-phone{
+            span{
+                font-size: 17px;
+            }
+            .button{
+                width: 122px;
+            }
+        }
+ 
+       
+       
+    }
+
+
+
+   
+}

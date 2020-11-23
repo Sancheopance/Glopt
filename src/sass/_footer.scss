@@ -6,6 +6,10 @@
 
     &__content{
         display: flex;
+        justify-content: space-between;
+    }
+    &__wrapper{
+        display: flex;
     }
     &__icon{
         margin-right: 40px;
@@ -20,7 +24,7 @@
     &-phone{
         margin-top: 14px;
         display: flex;
-        margin-left: 244px;
+       
         &__subheader{
             margin-right: 19px;
             font-size: 14px;
@@ -30,6 +34,12 @@
             span{
                 font-size: 19px;
                 font-weight: bold;
+                a{
+                    color: #ffffff;
+                    &:hover{
+                        color: $main-color;
+                    }
+                }
             }
             
         }
@@ -51,7 +61,7 @@
             color: rgba(255, 255, 255, 0.6);
         }
         &__link{
-            margin-right: 160px;
+            
             font-size: 13px;
             font-weight: 300;
             text-align: center;

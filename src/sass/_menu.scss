@@ -1,9 +1,14 @@
-.header{
+.menu{
     position: absolute;
     width: 100%;
     padding-top: 23px;
+    display: flex;
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+    }
 
-    &__menu{
+    &__links{
         margin-top: 27px;
         display: flex;
         list-style-type: none;  
@@ -40,8 +45,16 @@
             text-align: right;
             color: #ffffff;  
             span{
+                
                 font-size: 19px;
                 font-weight: bold;
+                a{
+                    color: #ffffff;
+                    &:hover{
+                        color: $main-color;
+                    }
+                }
+
             }
             
         }
